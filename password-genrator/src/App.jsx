@@ -43,6 +43,7 @@ function App() {
 
   const copyPassword = useCallback(() => {
       passRef.current?.select()
+      passRef.current?.setSelectionRange(1,50)
       window.navigator.clipboard.write(password)
     },[password])
   return (
