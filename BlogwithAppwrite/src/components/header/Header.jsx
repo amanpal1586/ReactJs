@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import {Logo} from '../index'
+import {Container} from '../index'
 
 
 function header() {
@@ -41,7 +42,7 @@ function header() {
 
   return (
    <header className='py-5 shadow bg-gray-500'>
-    <container>
+    <Container>
       <nav className='flex '>
     <div className='mr-4'>
     <Link to='/'>
@@ -65,7 +66,7 @@ function header() {
       }
     </ul>
       </nav>
-    </container>
+    </Container>
    </header>
   )
 }

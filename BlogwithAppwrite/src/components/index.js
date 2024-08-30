@@ -17,6 +17,8 @@ import Home from '../pages/Home'
 import AllPost from "../pages/AllPost";
 import AddPost from "../pages/AddPost";
 import EditPost from '../pages/EditPost'
+import Select from "./Select";
+
 
 
 export {
@@ -38,6 +40,8 @@ export {
     Home,
     AllPost,
     AddPost,
-    EditPost
+    EditPost,
+    Select,
+
 
 }
