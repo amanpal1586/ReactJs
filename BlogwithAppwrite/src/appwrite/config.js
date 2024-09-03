@@ -148,4 +148,4 @@ export class Service{
 
 const service = new Service()
 
-export default Service
+export default service
